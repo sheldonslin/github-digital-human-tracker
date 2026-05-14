@@ -8,6 +8,7 @@ const CATEGORIES: { label: string; value: Category | 'all' }[] = [
   { label: '说话头像', value: '说话头像' },
   { label: '口型同步', value: '口型同步' },
   { label: '语音合成', value: '语音合成' },
+  { label: '语音识别', value: '语音识别' },
   { label: '视频生成', value: '视频生成' },
   { label: '人像驱动', value: '人像驱动' },
 ]
