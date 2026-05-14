@@ -65,6 +65,11 @@ export default function ProjectCard({ project }: { project: Project }) {
                 🔥 热门
               </span>
             )}
+            {project.nsfw && (
+              <span className="shrink-0 text-xs px-1.5 py-0.5 rounded-md bg-red-500/20 text-red-400 border border-red-500/30 font-medium">
+                🔞 NSFW
+              </span>
+            )}
           </div>
           <p className="text-xs text-gray-500 mt-0.5 font-mono truncate">{project.repo}</p>
         </div>

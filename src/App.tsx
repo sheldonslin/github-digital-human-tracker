@@ -18,12 +18,17 @@ export default function App() {
   const [search, setSearch] = useState('')
   const [activeCategory, setActiveCategory] = useState<Category | 'all'>('all')
   const [sortKey, setSortKey] = useState<SortKey>('stars')
+  const [nsfwOnly, setNsfwOnly] = useState(false)
 
   const filtered = useMemo(() => {
     let result = projects
 
     if (activeCategory !== 'all') {
       result = result.filter((p) => p.category === activeCategory)
+    }
+
+    if (nsfwOnly) {
+      result = result.filter((p) => p.nsfw === true)
     }
 
     if (search.trim()) {
@@ -43,7 +48,7 @@ export default function App() {
       if (sortKey === 'lastUpdated') return new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
       return PRIORITY_ORDER[a.priority] - PRIORITY_ORDER[b.priority]
     })
-  }, [search, activeCategory, sortKey])
+  }, [search, activeCategory, sortKey, nsfwOnly])
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -56,6 +61,8 @@ export default function App() {
           onCategoryChange={setActiveCategory}
           sortKey={sortKey}
           onSortChange={setSortKey}
+          nsfwOnly={nsfwOnly}
+          onNsfwToggle={() => setNsfwOnly(v => !v)}
           resultCount={filtered.length}
         />
 
@@ -64,7 +71,7 @@ export default function App() {
             <div className="text-4xl mb-3">🔍</div>
             <p className="text-sm">没有找到匹配的项目</p>
             <button
-              onClick={() => { setSearch(''); setActiveCategory('all') }}
+              onClick={() => { setSearch(''); setActiveCategory('all'); setNsfwOnly(false) }}
               className="mt-4 text-xs text-indigo-400 hover:text-indigo-300 underline"
             >
               清除筛选条件
@@ -80,7 +87,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-gray-800 mt-12 py-6 text-center text-xs text-gray-600">
-        数字人项目追踪 · 数据来源于 GitHub · 仅供学习参考
+        数字人开源框架项目追踪 · 数据来源于 GitHub · 仅供学习参考
       </footer>
     </div>
   )
