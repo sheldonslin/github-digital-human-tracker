@@ -2,12 +2,14 @@ import { Category, SortKey } from '../types/project'
 
 const CATEGORIES: { label: string; value: Category | 'all' }[] = [
   { label: '全部', value: 'all' },
-  { label: 'Talking Head', value: 'Talking Head' },
-  { label: 'Lip Sync', value: 'Lip Sync' },
-  { label: 'AI Avatar', value: 'AI Avatar' },
-  { label: 'TTS / Voice', value: 'TTS / Voice' },
-  { label: 'Video Generation', value: 'Video Generation' },
-  { label: 'Realtime Avatar', value: 'Realtime Avatar' },
+  { label: '实时数字人', value: '实时数字人' },
+  { label: '多模态框架', value: '多模态框架' },
+  { label: '完整对话系统', value: '完整对话系统' },
+  { label: '说话头像', value: '说话头像' },
+  { label: '口型同步', value: '口型同步' },
+  { label: '语音合成', value: '语音合成' },
+  { label: '视频生成', value: '视频生成' },
+  { label: '人像驱动', value: '人像驱动' },
 ]
 
 const SORT_OPTIONS: { label: string; value: SortKey }[] = [
