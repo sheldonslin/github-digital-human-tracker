@@ -1,0 +1,36 @@
+name: Weekly Sync Stars
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'  # 每周一凌晨 2 点
+  workflow_dispatch:       # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync stars and trending
+        run: node scripts/sync-stars.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet data/projects.json || (
+            git add data/projects.json &&
+            git commit -m "chore: 自动同步 stars 数据 $(date +'%Y-%m-%d')"
+          )
+
+      - name: Push
+        run: git push

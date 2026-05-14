@@ -19,9 +19,11 @@ export interface Project {
   category: Category
   description: string
   stars: number
+  prevStars: number
   lastUpdated: string
   tech: string[]
   useCase: string
   priority: Priority
+  trending?: boolean
   note: string
 }
