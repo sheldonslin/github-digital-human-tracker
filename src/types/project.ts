@@ -26,5 +26,6 @@ export interface Project {
   useCase: string
   priority: Priority
   trending?: boolean
+  nsfw?: boolean
   note: string
 }

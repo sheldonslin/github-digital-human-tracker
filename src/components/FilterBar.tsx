@@ -24,13 +24,15 @@ interface FilterBarProps {
   onCategoryChange: (cat: Category | 'all') => void
   sortKey: SortKey
   onSortChange: (key: SortKey) => void
+  nsfwOnly: boolean
+  onNsfwToggle: () => void
   resultCount: number
 }
 
-export default function FilterBar({ activeCategory, onCategoryChange, sortKey, onSortChange, resultCount }: FilterBarProps) {
+export default function FilterBar({ activeCategory, onCategoryChange, sortKey, onSortChange, nsfwOnly, onNsfwToggle, resultCount }: FilterBarProps) {
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-      <div className="flex flex-wrap gap-2 flex-1">
+    <div className="flex flex-col gap-3">
+      <div className="flex flex-wrap gap-2">
         {CATEGORIES.map((cat) => (
           <button
             key={cat.value}
@@ -44,8 +46,18 @@ export default function FilterBar({ activeCategory, onCategoryChange, sortKey, o
             {cat.label}
           </button>
         ))}
+        <button
+          onClick={onNsfwToggle}
+          className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+            nsfwOnly
+              ? 'bg-red-700 text-white shadow-lg shadow-red-900/40'
+              : 'bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-gray-200'
+          }`}
+        >
+          🔞 NSFW 支持
+        </button>
       </div>
-      <div className="flex items-center gap-2 shrink-0">
+      <div className="flex items-center gap-2">
         <span className="text-xs text-gray-500">{resultCount} 个结果</span>
         <span className="text-gray-700">|</span>
         <span className="text-xs text-gray-500">排序：</span>
