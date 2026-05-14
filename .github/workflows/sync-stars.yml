@@ -34,3 +34,9 @@ jobs:
 
       - name: Push
         run: git push
+
+      - name: Trigger Pages deploy
+        run: |
+          gh workflow run deploy.yml --repo ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
