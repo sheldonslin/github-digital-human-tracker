@@ -973,5 +973,44 @@
     "priority": "medium",
     "nsfw": false,
     "note": ""
+  },
+  {
+    "name": "Qwen3-TTS",
+    "repo": "QwenLM/Qwen3-TTS",
+    "url": "https://github.com/QwenLM/Qwen3-TTS",
+    "category": "语音合成",
+    "description": "阿里 Qwen 团队出品，支持稳定/表现力强/流式语音生成、自由音色设计和声音克隆",
+    "stars": 11352,
+    "prevStars": 11352,
+    "lastUpdated": "2026-03-17",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Transformer",
+      "Streaming"
+    ],
+    "useCase": "中文数字人高质量配音，流式实时语音合成",
+    "priority": "high",
+    "nsfw": false,
+    "note": ""
+  },
+  {
+    "name": "VoxCPM 2",
+    "repo": "OpenBMB/VoxCPM",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "category": "语音合成",
+    "description": "OpenBMB 出品，无 Tokenizer 架构的多语言 TTS，支持方言、创意音色设计和高真实度声音克隆",
+    "stars": 18753,
+    "prevStars": 18753,
+    "lastUpdated": "2026-05-11",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Tokenizer-Free"
+    ],
+    "useCase": "方言数字人配音，创意音色设计，高保真克隆",
+    "priority": "high",
+    "nsfw": false,
+    "note": ""
   }
 ]
