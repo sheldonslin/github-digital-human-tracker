@@ -5,13 +5,19 @@
     "url": "https://github.com/lipku/LiveTalking",
     "category": "实时数字人",
     "description": "实时交互流式数字人，支持音视频同步、多种驱动模型，适合直播和实时对话场景",
-    "stars": 5200,
+    "stars": 7645,
     "prevStars": 5200,
-    "lastUpdated": "2024-12-10",
-    "tech": ["Python", "WebRTC", "MuseTalk", "RTMP"],
+    "lastUpdated": "2026-04-11",
+    "tech": [
+      "Python",
+      "WebRTC",
+      "MuseTalk",
+      "RTMP"
+    ],
     "useCase": "实时直播数字人、低延迟对话数字人 Demo",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "metahuman-stream",
@@ -19,13 +25,19 @@
     "url": "https://github.com/lipku/metahuman-stream",
     "category": "实时数字人",
     "description": "实时流式数字人，支持 Wav2Lip/NeRF/3DGS 多种渲染后端，延迟极低",
-    "stars": 4800,
+    "stars": 7645,
     "prevStars": 4800,
-    "lastUpdated": "2024-11-20",
-    "tech": ["Python", "WebRTC", "NeRF", "3DGS"],
+    "lastUpdated": "2026-04-11",
+    "tech": [
+      "Python",
+      "WebRTC",
+      "NeRF",
+      "3DGS"
+    ],
     "useCase": "实时流式数字人渲染，多后端切换",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "DH_Live",
@@ -33,13 +45,18 @@
     "url": "https://github.com/kleinlee/DH_Live",
     "category": "实时数字人",
     "description": "实时数字人直播方案，轻量部署，支持自定义数字人形象",
-    "stars": 2600,
+    "stars": 1958,
     "prevStars": 2600,
-    "lastUpdated": "2024-10-15",
-    "tech": ["Python", "PyTorch", "WebSocket"],
+    "lastUpdated": "2026-05-11",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "WebSocket"
+    ],
     "useCase": "轻量实时数字人直播",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "ultralight-digital-human",
@@ -50,7 +67,11 @@
     "stars": 2800,
     "prevStars": 2800,
     "lastUpdated": "2024-10-30",
-    "tech": ["Python", "ONNX", "WebRTC"],
+    "tech": [
+      "Python",
+      "ONNX",
+      "WebRTC"
+    ],
     "useCase": "资源受限设备上的实时数字人",
     "priority": "medium",
     "note": ""
@@ -61,13 +82,19 @@
     "url": "https://github.com/datascale-ai/opentalking",
     "category": "实时数字人",
     "description": "面向实时对话的工业级开源数字人产线框架，支持打断、字幕、可插拔模型，可私有部署",
-    "stars": 493,
+    "stars": 504,
     "prevStars": 493,
     "lastUpdated": "2026-05-14",
-    "tech": ["Python", "WebRTC", "LLM", "TTS"],
+    "tech": [
+      "Python",
+      "WebRTC",
+      "LLM",
+      "TTS"
+    ],
     "useCase": "不从零造轮子快速搭出能说话、能打断、带字幕的实时数字人",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "TEN Framework",
@@ -75,13 +102,19 @@
     "url": "https://github.com/TEN-framework/ten-framework",
     "category": "多模态框架",
     "description": "专为实时多模态 AI Agent 设计的底层框架，支持音视频流、低延迟编排",
-    "stars": 6800,
+    "stars": 10564,
     "prevStars": 6800,
-    "lastUpdated": "2024-12-15",
-    "tech": ["C++", "Python", "Go", "WebRTC"],
+    "lastUpdated": "2026-05-14",
+    "tech": [
+      "C++",
+      "Python",
+      "Go",
+      "WebRTC"
+    ],
     "useCase": "构建实时多模态 Agent 底座，长期可控架构",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "TEN Agent",
@@ -89,13 +122,19 @@
     "url": "https://github.com/TEN-framework/TEN-Agent",
     "category": "多模态框架",
     "description": "基于 TEN Framework 的实时多模态 AI Agent，集成 LLM + TTS + 数字人渲染",
-    "stars": 5100,
+    "stars": 10564,
     "prevStars": 5100,
-    "lastUpdated": "2024-12-12",
-    "tech": ["Python", "TEN Framework", "LLM", "TTS"],
+    "lastUpdated": "2026-05-14",
+    "tech": [
+      "Python",
+      "TEN Framework",
+      "LLM",
+      "TTS"
+    ],
     "useCase": "产品化实时数字人陪聊，TEN 生态二开",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "OpenAvatarChat",
@@ -103,13 +142,20 @@
     "url": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
     "category": "完整对话系统",
     "description": "阿里推出的开源实时数字人对话系统，ASR+LLM+TTS+Avatar 全链路集成",
-    "stars": 3900,
+    "stars": 3429,
     "prevStars": 3900,
-    "lastUpdated": "2024-12-08",
-    "tech": ["Python", "ASR", "LLM", "TTS", "Avatar"],
+    "lastUpdated": "2026-04-26",
+    "tech": [
+      "Python",
+      "ASR",
+      "LLM",
+      "TTS",
+      "Avatar"
+    ],
     "useCase": "完整开源数字人对话系统研究与参考",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "Linly-Talker",
@@ -117,13 +163,20 @@
     "url": "https://github.com/Kedreamix/Linly-Talker",
     "category": "完整对话系统",
     "description": "端到端数字人对话系统，集成多种 LLM/TTS/口型模型，Gradio 界面",
-    "stars": 3400,
+    "stars": 3303,
     "prevStars": 3400,
-    "lastUpdated": "2024-11-25",
-    "tech": ["Python", "Gradio", "LLM", "TTS", "SadTalker"],
+    "lastUpdated": "2026-02-10",
+    "tech": [
+      "Python",
+      "Gradio",
+      "LLM",
+      "TTS",
+      "SadTalker"
+    ],
     "useCase": "完整数字人对话系统研究，快速验证全链路",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "CyberVerse",
@@ -134,7 +187,11 @@
     "stars": 1800,
     "prevStars": 1800,
     "lastUpdated": "2024-10-20",
-    "tech": ["Python", "PyTorch", "WebRTC"],
+    "tech": [
+      "Python",
+      "PyTorch",
+      "WebRTC"
+    ],
     "useCase": "多角色数字人实时交互，虚拟陪伴产品",
     "priority": "medium",
     "note": "待复核"
@@ -145,13 +202,19 @@
     "url": "https://github.com/TheRamU/Fay",
     "category": "完整对话系统",
     "description": "开源数字人框架，支持本地部署，含情绪管理、插件系统和多种对话引擎",
-    "stars": 8200,
+    "stars": 12777,
     "prevStars": 8200,
-    "lastUpdated": "2024-12-01",
-    "tech": ["Python", "LLM", "TTS", "Live2D"],
+    "lastUpdated": "2026-04-27",
+    "tech": [
+      "Python",
+      "LLM",
+      "TTS",
+      "Live2D"
+    ],
     "useCase": "本地部署完整数字人对话系统，插件化扩展",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "SadTalker",
@@ -159,13 +222,18 @@
     "url": "https://github.com/OpenTalker/SadTalker",
     "category": "说话头像",
     "description": "通过音频驱动人脸视频生成，支持单张照片生成说话头像，效果自然流畅",
-    "stars": 14200,
+    "stars": 13802,
     "prevStars": 14200,
-    "lastUpdated": "2024-11-01",
-    "tech": ["Python", "PyTorch", "3DMM"],
+    "lastUpdated": "2024-06-26",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "3DMM"
+    ],
     "useCase": "单张图片+音频生成说话视频",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "DreamTalk",
@@ -173,13 +241,18 @@
     "url": "https://github.com/ali-vilab/dreamtalk",
     "category": "说话头像",
     "description": "阿里推出的高表现力说话头像，支持丰富的面部表情生成",
-    "stars": 2100,
+    "stars": 1792,
     "prevStars": 2100,
-    "lastUpdated": "2024-05-15",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2024-01-15",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "高表现力数字人头像生成",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "EchoMimic",
@@ -187,13 +260,18 @@
     "url": "https://github.com/BadToBest/EchoMimic",
     "category": "说话头像",
     "description": "音频驱动的数字人生成，支持半身像，表情自然",
-    "stars": 3600,
+    "stars": 4231,
     "prevStars": 3600,
-    "lastUpdated": "2024-11-10",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2026-04-07",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "半身数字人视频生成",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "Wav2Lip",
@@ -201,13 +279,18 @@
     "url": "https://github.com/Rudrabha/Wav2Lip",
     "category": "口型同步",
     "description": "经典唇形同步模型，将任意音频与视频进行口型对齐，准确率高",
-    "stars": 9800,
+    "stars": 12986,
     "prevStars": 9800,
-    "lastUpdated": "2024-06-20",
-    "tech": ["Python", "PyTorch", "GAN"],
+    "lastUpdated": "2025-06-22",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "GAN"
+    ],
     "useCase": "视频配音口型同步，数字人视频后处理",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "MuseTalk",
@@ -215,13 +298,18 @@
     "url": "https://github.com/TMElyralab/MuseTalk",
     "category": "口型同步",
     "description": "腾讯音乐推出的实时唇形同步方案，延迟低，支持实时流式推理",
-    "stars": 3200,
+    "stars": 5750,
     "prevStars": 3200,
-    "lastUpdated": "2024-12-01",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2025-09-26",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "实时直播数字人口型同步",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "Hallo",
@@ -229,13 +317,18 @@
     "url": "https://github.com/fudan-generative-vision/hallo",
     "category": "口型同步",
     "description": "复旦推出的高质量音频驱动人像动画，口型与表情联动效果佳",
-    "stars": 4100,
+    "stars": 8645,
     "prevStars": 4100,
-    "lastUpdated": "2024-10-10",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2024-09-14",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "高质量单图口型动画生成",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "AniPortrait",
@@ -243,13 +336,18 @@
     "url": "https://github.com/Zejun-Yang/AniPortrait",
     "category": "口型同步",
     "description": "音频驱动的高质量人像动画框架，支持头部姿态和口型联动",
-    "stars": 3300,
+    "stars": 5018,
     "prevStars": 3300,
-    "lastUpdated": "2024-08-15",
-    "tech": ["Python", "PyTorch", "ControlNet"],
+    "lastUpdated": "2024-07-02",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "ControlNet"
+    ],
     "useCase": "音频驱动人像动画，口型+头部姿态同步",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "V-Express",
@@ -257,13 +355,18 @@
     "url": "https://github.com/tencent-ailab/V-Express",
     "category": "口型同步",
     "description": "腾讯推出的渐进式训练口型同步方案，支持参考视频驱动",
-    "stars": 2900,
+    "stars": 2366,
     "prevStars": 2900,
-    "lastUpdated": "2024-09-20",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2025-01-24",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "参考视频驱动的高质量口型同步",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "Coqui TTS",
@@ -271,13 +374,18 @@
     "url": "https://github.com/coqui-ai/TTS",
     "category": "语音合成",
     "description": "开源文本转语音库，支持多语言多说话人，可本地部署",
-    "stars": 35000,
+    "stars": 45298,
     "prevStars": 35000,
-    "lastUpdated": "2024-08-10",
-    "tech": ["Python", "PyTorch", "ONNX"],
+    "lastUpdated": "2024-08-16",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "ONNX"
+    ],
     "useCase": "数字人语音合成，多语言 TTS 本地部署",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "CosyVoice",
@@ -285,13 +393,18 @@
     "url": "https://github.com/FunAudioLLM/CosyVoice",
     "category": "语音合成",
     "description": "阿里通义推出的高质量中文 TTS，支持零样本声音克隆",
-    "stars": 8900,
+    "stars": 21024,
     "prevStars": 8900,
-    "lastUpdated": "2024-12-05",
-    "tech": ["Python", "PyTorch", "Flow Matching"],
+    "lastUpdated": "2026-05-03",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Flow Matching"
+    ],
     "useCase": "中文数字人语音合成，声音克隆",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "Fish Speech",
@@ -299,13 +412,18 @@
     "url": "https://github.com/fishaudio/fish-speech",
     "category": "语音合成",
     "description": "高质量多语言 TTS，支持声音克隆，推理速度快",
-    "stars": 15200,
+    "stars": 30313,
     "prevStars": 15200,
-    "lastUpdated": "2024-12-10",
-    "tech": ["Python", "PyTorch", "VITS"],
+    "lastUpdated": "2026-05-12",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "VITS"
+    ],
     "useCase": "多语言数字人配音，快速声音克隆",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "Animate Anyone",
@@ -313,13 +431,18 @@
     "url": "https://github.com/HumanAIGC/AnimateAnyone",
     "category": "视频生成",
     "description": "阿里推出的人物动画生成，通过参考图+姿态序列驱动人物运动",
-    "stars": 14700,
+    "stars": 14772,
     "prevStars": 14700,
-    "lastUpdated": "2024-07-20",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2025-09-20",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "人物动态视频生成，数字人全身动画",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "Moore-AnimateAnyone",
@@ -327,13 +450,18 @@
     "url": "https://github.com/MooreThreads/Moore-AnimateAnyone",
     "category": "视频生成",
     "description": "魔显对 Animate Anyone 的优化实现，开源权重，可商用",
-    "stars": 3800,
+    "stars": 3500,
     "prevStars": 3800,
-    "lastUpdated": "2024-09-01",
-    "tech": ["Python", "PyTorch", "UNet"],
+    "lastUpdated": "2024-05-31",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "UNet"
+    ],
     "useCase": "开源可部署的人物动画视频生成",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "HeyGem",
@@ -341,13 +469,18 @@
     "url": "https://github.com/GuijiAI/HeyGem.ai",
     "category": "视频生成",
     "description": "开源数字人视频生成工具，支持批量生成口播/带货视频，本地部署",
-    "stars": 7600,
+    "stars": 12977,
     "prevStars": 7600,
-    "lastUpdated": "2024-12-05",
-    "tech": ["Python", "Docker", "Lip Sync"],
+    "lastUpdated": "2026-04-21",
+    "tech": [
+      "Python",
+      "Docker",
+      "Lip Sync"
+    ],
     "useCase": "批量生成口播、剧情、带货数字人视频",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "LivePortrait",
@@ -355,13 +488,18 @@
     "url": "https://github.com/KwaiVGI/LivePortrait",
     "category": "人像驱动",
     "description": "快手推出的高效人像驱动方案，实时性强，支持表情和姿态迁移",
-    "stars": 13500,
+    "stars": 18338,
     "prevStars": 13500,
-    "lastUpdated": "2024-12-01",
-    "tech": ["Python", "PyTorch", "Stitching"],
+    "lastUpdated": "2026-03-02",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Stitching"
+    ],
     "useCase": "实时人像表情驱动，直播互动数字人",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": true
   },
   {
     "name": "StreamDiffusion",
@@ -369,13 +507,18 @@
     "url": "https://github.com/cumulo-autumn/StreamDiffusion",
     "category": "人像驱动",
     "description": "实时图像生成流处理框架，可用于实时 Avatar 风格化渲染",
-    "stars": 11500,
+    "stars": 10718,
     "prevStars": 11500,
-    "lastUpdated": "2024-09-15",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2024-12-04",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "实时 AI 形象风格化，直播场景",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "GPT-SoVITS",
@@ -383,13 +526,19 @@
     "url": "https://github.com/RVC-Boss/GPT-SoVITS",
     "category": "语音合成",
     "description": "仅需 1 分钟音频即可克隆声音，中英日多语言，业界最流行的声音克隆方案",
-    "stars": 57452,
+    "stars": 57457,
     "prevStars": 57452,
-    "lastUpdated": "2024-12-15",
-    "tech": ["Python", "PyTorch", "GPT", "SoVITS"],
+    "lastUpdated": "2026-04-30",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "GPT",
+      "SoVITS"
+    ],
     "useCase": "少样本声音克隆，数字人专属音色定制",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "ChatTTS",
@@ -397,13 +546,18 @@
     "url": "https://github.com/2noise/ChatTTS",
     "category": "语音合成",
     "description": "专为对话场景优化的生成式 TTS，支持笑声、停顿等自然语气，表现力极强",
-    "stars": 39249,
+    "stars": 39252,
     "prevStars": 39249,
-    "lastUpdated": "2024-11-01",
-    "tech": ["Python", "PyTorch", "Transformer"],
+    "lastUpdated": "2026-04-10",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Transformer"
+    ],
     "useCase": "数字人自然对话配音，情绪化语音合成",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "OpenVoice",
@@ -411,13 +565,18 @@
     "url": "https://github.com/myshell-ai/OpenVoice",
     "category": "语音合成",
     "description": "MIT & MyShell 出品，即时声音克隆，仅需参考音频几秒即可复刻音色",
-    "stars": 36497,
+    "stars": 36499,
     "prevStars": 36497,
-    "lastUpdated": "2024-10-20",
-    "tech": ["Python", "PyTorch", "VITS"],
+    "lastUpdated": "2025-04-19",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "VITS"
+    ],
     "useCase": "即时音色克隆，多语言数字人配音",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "RVC",
@@ -427,11 +586,17 @@
     "description": "基于检索的实时变声/声音克隆 WebUI，训练数据少，音质高，社区生态丰富",
     "stars": 35594,
     "prevStars": 35594,
-    "lastUpdated": "2024-12-01",
-    "tech": ["Python", "PyTorch", "FAISS", "WebUI"],
+    "lastUpdated": "2024-11-24",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "FAISS",
+      "WebUI"
+    ],
     "useCase": "实时变声、声音克隆、数字人音色定制",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "EmotiVoice",
@@ -441,11 +606,16 @@
     "description": "网易有道出品，支持情绪控制的多音色 TTS，中英双语，2000+ 音色",
     "stars": 8480,
     "prevStars": 8480,
-    "lastUpdated": "2024-09-01",
-    "tech": ["Python", "PyTorch", "VITS"],
+    "lastUpdated": "2024-08-13",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "VITS"
+    ],
     "useCase": "情绪化数字人配音，多音色场景化 TTS",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "FunASR",
@@ -453,13 +623,19 @@
     "url": "https://github.com/modelscope/FunASR",
     "category": "语音识别",
     "description": "阿里达摩院出品的工业级 ASR 工具包，含语音识别、VAD、标点恢复等全链路能力",
-    "stars": 16056,
+    "stars": 16061,
     "prevStars": 16056,
-    "lastUpdated": "2024-12-10",
-    "tech": ["Python", "PyTorch", "CTC", "Attention"],
+    "lastUpdated": "2026-03-17",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "CTC",
+      "Attention"
+    ],
     "useCase": "数字人实时语音输入识别，中文 ASR 首选",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "SenseVoice",
@@ -467,13 +643,18 @@
     "url": "https://github.com/FunAudioLLM/SenseVoice",
     "category": "语音识别",
     "description": "阿里通义推出的多语言语音理解模型，支持 ASR、情绪识别、声音事件检测",
-    "stars": 8144,
+    "stars": 8146,
     "prevStars": 8144,
-    "lastUpdated": "2024-12-05",
-    "tech": ["Python", "PyTorch", "Transformer"],
+    "lastUpdated": "2025-12-30",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Transformer"
+    ],
     "useCase": "数字人听觉理解，情绪感知 + 语音识别",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "pipecat",
@@ -481,13 +662,20 @@
     "url": "https://github.com/pipecat-ai/pipecat",
     "category": "多模态框架",
     "description": "开源语音和多模态对话 AI 框架，内置 STT/LLM/TTS 管线编排，支持主流服务商",
-    "stars": 12149,
+    "stars": 12157,
     "prevStars": 12149,
-    "lastUpdated": "2024-12-15",
-    "tech": ["Python", "WebRTC", "STT", "LLM", "TTS"],
+    "lastUpdated": "2026-05-14",
+    "tech": [
+      "Python",
+      "WebRTC",
+      "STT",
+      "LLM",
+      "TTS"
+    ],
     "useCase": "快速搭建实时语音对话数字人，管线式编排",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "LiveKit Agents",
@@ -495,13 +683,19 @@
     "url": "https://github.com/livekit/agents",
     "category": "多模态框架",
     "description": "LiveKit 出品的实时语音 AI Agent 框架，低延迟，支持多模态，云原生部署",
-    "stars": 10464,
+    "stars": 10470,
     "prevStars": 10464,
-    "lastUpdated": "2024-12-15",
-    "tech": ["Python", "WebRTC", "LiveKit", "LLM"],
+    "lastUpdated": "2026-05-14",
+    "tech": [
+      "Python",
+      "WebRTC",
+      "LiveKit",
+      "LLM"
+    ],
     "useCase": "生产级实时语音 AI Agent，数字人后端",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "DUIX",
@@ -511,11 +705,17 @@
     "description": "硅基智能出品，移动端实时交互数字人，支持本地部署，延迟 <1.5s",
     "stars": 7970,
     "prevStars": 7970,
-    "lastUpdated": "2024-12-10",
-    "tech": ["Android", "iOS", "WebRTC", "LLM"],
+    "lastUpdated": "2026-05-12",
+    "tech": [
+      "Android",
+      "iOS",
+      "WebRTC",
+      "LLM"
+    ],
     "useCase": "移动端实时数字人，本地私有化部署",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "VideoReTalking",
@@ -525,11 +725,16 @@
     "description": "SIGGRAPH Asia 2022，对说话人视频进行音频驱动的口型重新同步，自然流畅",
     "stars": 7250,
     "prevStars": 7250,
-    "lastUpdated": "2024-08-01",
-    "tech": ["Python", "PyTorch", "GAN"],
+    "lastUpdated": "2024-08-05",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "GAN"
+    ],
     "useCase": "视频配音后口型同步，数字人视频后期",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "Hallo2",
@@ -539,11 +744,16 @@
     "description": "ICLR 2025，Hallo 升级版，支持长时长高分辨率音频驱动人像动画",
     "stars": 3698,
     "prevStars": 3698,
-    "lastUpdated": "2024-12-01",
-    "tech": ["Python", "PyTorch", "Diffusion"],
+    "lastUpdated": "2025-02-27",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Diffusion"
+    ],
     "useCase": "长视频高清口型动画，演讲/教学场景",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "CogVideoX",
@@ -553,11 +763,17 @@
     "description": "智谱 AI 出品的开源视频生成模型，支持文生视频和图生视频，质量领先",
     "stars": 12720,
     "prevStars": 12720,
-    "lastUpdated": "2024-12-10",
-    "tech": ["Python", "PyTorch", "DiT", "3D-VAE"],
+    "lastUpdated": "2025-11-04",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "DiT",
+      "3D-VAE"
+    ],
     "useCase": "数字人背景视频生成，AI 短视频制作",
     "priority": "high",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "Champ",
@@ -567,11 +783,17 @@
     "description": "ECCV 2024，基于 3D 参数化指导的可控人体图像动画，动作一致性强",
     "stars": 4254,
     "prevStars": 4254,
-    "lastUpdated": "2024-10-15",
-    "tech": ["Python", "PyTorch", "SMPL", "Diffusion"],
+    "lastUpdated": "2024-07-10",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "SMPL",
+      "Diffusion"
+    ],
     "useCase": "全身人物动画生成，舞蹈/动作迁移",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   },
   {
     "name": "SyncTalk",
@@ -581,10 +803,15 @@
     "description": "CVPR 2024，解决说话头像音视频同步问题，唇形/表情/头部动作高度协调",
     "stars": 1629,
     "prevStars": 1629,
-    "lastUpdated": "2024-09-01",
-    "tech": ["Python", "PyTorch", "NeRF"],
+    "lastUpdated": "2025-09-18",
+    "tech": [
+      "Python",
+      "PyTorch",
+      "NeRF"
+    ],
     "useCase": "高同步精度说话头像，研究参考",
     "priority": "medium",
-    "note": ""
+    "note": "",
+    "trending": false
   }
 ]
