@@ -67,11 +67,13 @@ ci: 优化 GitHub Actions 构建缓存
   url: string            // 完整 GitHub URL
   category: Category     // 见下方枚举
   description: string    // 中文描述，50字以内
-  stars: number          // 整数，不确定时标注 note
-  lastUpdated: string    // "YYYY-MM-DD" 格式
+  stars: number          // 整数，由 sync-stars.mjs 自动维护
+  prevStars: number      // 上次同步的 stars，由脚本自动维护，初始与 stars 相同
+  lastUpdated: string    // "YYYY-MM-DD" 格式，由脚本自动维护
   tech: string[]         // 技术栈数组，2-5个
   useCase: string        // 使用场景，中文，30字以内
   priority: Priority     // "high" | "medium" | "low"
+  trending?: boolean     // 由脚本自动计算，周增长 >5% 自动标记，勿手动修改
   note: string           // 备注，不确定数据填"待复核"，无备注填""
 }
 ```
