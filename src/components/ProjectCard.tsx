@@ -8,6 +8,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   '说话头像': 'bg-cyan-900/50 text-cyan-300 border-cyan-800',
   '口型同步': 'bg-purple-900/50 text-purple-300 border-purple-800',
   '语音合成': 'bg-emerald-900/50 text-emerald-300 border-emerald-800',
+  '语音识别': 'bg-teal-900/50 text-teal-300 border-teal-800',
   '视频生成': 'bg-orange-900/50 text-orange-300 border-orange-800',
   '人像驱动': 'bg-pink-900/50 text-pink-300 border-pink-800',
 }
