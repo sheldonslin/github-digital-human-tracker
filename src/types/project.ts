@@ -1,10 +1,12 @@
 export type Category =
-  | 'Talking Head'
-  | 'Lip Sync'
-  | 'AI Avatar'
-  | 'TTS / Voice'
-  | 'Video Generation'
-  | 'Realtime Avatar'
+  | '实时数字人'
+  | '多模态框架'
+  | '完整对话系统'
+  | '说话头像'
+  | '口型同步'
+  | '语音合成'
+  | '视频生成'
+  | '人像驱动'
 
 export type Priority = 'high' | 'medium' | 'low'
 

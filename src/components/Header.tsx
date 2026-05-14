@@ -13,8 +13,8 @@ export default function Header({ totalCount, lastUpdated }: HeaderProps) {
               🤖
             </div>
             <div>
-              <h1 className="text-lg font-bold text-white leading-tight">数字人项目追踪</h1>
-              <p className="text-xs text-gray-500 hidden sm:block">GitHub Digital Human Tracker</p>
+              <h1 className="text-lg font-bold text-white leading-tight">数字人开源框架项目追踪</h1>
+              <p className="text-xs text-gray-500 hidden sm:block">Digital Human Open Source Tracker</p>
             </div>
           </div>
           <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -26,7 +26,7 @@ export default function Header({ totalCount, lastUpdated }: HeaderProps) {
           </div>
         </div>
         <p className="mt-2 text-sm text-gray-400">
-          追踪 GitHub 上数字人相关开源项目，覆盖 AI Avatar、Talking Head、Lip Sync、TTS、Video Generation、Realtime Avatar 等方向
+          覆盖实时数字人、多模态框架、完整对话系统、口型同步、语音合成、视频生成等方向
         </p>
       </div>
     </header>
